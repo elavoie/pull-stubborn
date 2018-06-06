@@ -13,7 +13,7 @@ tape('Readme Example', function (t) {
   var expected = [0, 1, 2, 3].map(function (x) { return x * x })
 
   pull(
-    pull.count(4),
+    pull.count(3),
     stubborn(
       pull.map(function (x) {
         log('processing ' + x)
