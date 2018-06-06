@@ -1,0 +1,33 @@
+{
+  "name": "pull-stubborn",
+  "version": "1.0.0",
+  "description": "Keeps resubmitting inputs to transformer until the corresponding outputs test successfully.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elavoie/pull-stubborn.git"
+  },
+  "keywords": [
+    "pull-stream",
+    "fault-tolerance"
+  ],
+  "author": "Erick Lavoie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elavoie/pull-stubborn/issues"
+  },
+  "homepage": "https://github.com/elavoie/pull-stubborn#readme",
+  "devDependencies": {
+    "pull-paramap": "^1.2.2",
+    "tape": "^4.9.0"
+  },
+  "dependencies": {
+    "debug": "^3.1.0"
+  }
+}
